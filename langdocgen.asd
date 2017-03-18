@@ -6,5 +6,5 @@
   :license "MIT"
   :serial t
   :components ((:file "package")
-               (:file "langdocgen")))
-
+               (:file "langdocgen"))
+  :depends-on (:cl-yaclyaml))
